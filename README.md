@@ -9,7 +9,9 @@ Quick demo to showcase
 Let's say you are in a e-commerce company. You see all these new advancements in the Large language models and wonder how a ChatGPT like assistant specific for your business would be 1) very cool and 2) super helpful for your customers to help with their purchases.
 
 For eg, when a customer asks
+
 `What equipement would you recommend for a computer workstation setup costing less than $2000?`
+
 You want your assistant / bot / agent generate not a product listing, but a useful response based on your products and user's preference that includes the recommended choice, rationale, alternate options. 
 
 With Vector search in Astra DB (and ofcourse the advancements in the LLM world), this is now super easy, you will learn how in this demo.
@@ -32,7 +34,9 @@ If you are able to pass necessary context and prompts to GPT models, it can gene
 Here are some of the sample prompts:
 
 `"You're a chatbot helping customers with questions and helping them with product recommendations"`
-`Please be friendly and talk to me like a person, don't just give me a list of recommendations`
+
+`"Please be friendly and talk to me like a person, don't just give me a list of recommendations"`
+
 
 Now comes the big question, the context - in this case, you need to be able to pass your Product information based on user's input.
 
