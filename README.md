@@ -10,7 +10,8 @@ Let's say you are in a e-commerce company. You see all these new advancements in
 
 For eg, when a customer asks
 ```
-What equipement would you recommend for a computer workstation setup costing less than $2000?
+What equipement would you recommend for a computer workstation setup 
+costing less than $2000?
 ```
 You want your assistant / bot / agent generate not a product listing, but a useful response based on your products and user's preference that includes the recommended choice, rationale, alternate options. 
 
@@ -34,10 +35,12 @@ If you are able to pass necessary context and prompts to GPT models, it can gene
 Here are some of the sample prompts:
 
 ```
-"You're a chatbot helping customers with questions and helping them with product recommendations"
+"You're a chatbot helping customers with questions and helping them with product 
+recommendations"
 ```
 ```
-Please be friendly and talk to me like a person, don't just give me a list of recommendations
+Please be friendly and talk to me like a person, don't just give me a list of 
+recommendations
 ```
 
 Now comes the big question, the context - in this case, you need to be able to pass your Product information based on user's input.
@@ -59,7 +62,9 @@ Now comes the big question, the context - in this case, you need to be able to p
 
 1 & 2 were usually hard in the past, not anymore. Embeddings and Vector search to the rescue. 
 
-If you are not familiar with how embeddings work, suggest to read a quick intro about it. Its a very interesting idea. [Add Links]
+If you are not familiar with how embeddings work, suggest to read a quick intro about it. Its a very interesting idea. [Add Links].
+
+(Suggest to try out the [Optional] Visualize Embeddings step to explore the embeddings.)
 
 There are several open, free and commercial embedding models and APIs available depending on your usecase. 
 This demo shows you how you can use 
