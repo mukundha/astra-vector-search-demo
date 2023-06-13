@@ -9,8 +9,7 @@ Quick demo to showcase
 Let's say you are in a e-commerce company. You see all these new advancements in the Large language models and wonder how a ChatGPT like assistant specific for your business would be 1) very cool and 2) super helpful for your customers to help with their purchases.
 
 For eg, when a customer asks
-```What equipement would you recommend for a computer workstation setup 
-costing less than $2000?```
+`What equipement would you recommend for a computer workstation setup costing less than $2000?`
 You want your assistant / bot / agent generate not a product listing, but a useful response based on your products and user's preference that includes the recommended choice, rationale, alternate options. 
 
 With Vector search in Astra DB (and ofcourse the advancements in the LLM world), this is now super easy, you will learn how in this demo.
@@ -32,10 +31,8 @@ If you are able to pass necessary context and prompts to GPT models, it can gene
 
 Here are some of the sample prompts:
 
-```"You're a chatbot helping customers with questions and helping them with product 
-recommendations"```
-```Please be friendly and talk to me like a person, don't just give me a list of 
-recommendations```
+`"You're a chatbot helping customers with questions and helping them with product recommendations"`
+`Please be friendly and talk to me like a person, don't just give me a list of recommendations`
 
 Now comes the big question, the context - in this case, you need to be able to pass your Product information based on user's input.
 
@@ -81,7 +78,8 @@ GPT generated response
 
 Another great option would be the LG LDS4821WW, a semi-integrated built-in dishwasher, which still offers a similar look and features to the LDF6920BB, but comes with a white finish instead. Like the LDF6920BB, it also features a large 16-place setting capacity, an adjustable upper rack and a LoDecibel quiet operation for silent use.
 
-If you're looking for a dishwasher with a modern and elegant design, you could consider the LG LDF6920ST, which features a stainless steel finish and a fully integrated electronic control panel. It also has a large 16-place setting capacity, an adjustable upper rack, and a LoDecibel quiet operation, making it a great choice for any modern kitchen.```
+If you're looking for a dishwasher with a modern and elegant design, you could consider the LG LDF6920ST, which features a stainless steel finish and a fully integrated electronic control panel. It also has a large 16-place setting capacity, an adjustable upper rack, and a LoDecibel quiet operation, making it a great choice for any modern kitchen.
+```
 
 Have fun!
 
